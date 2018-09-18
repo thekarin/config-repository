@@ -1,2 +1,26 @@
 service:
-  name: "account"
+  name: account
+
+---
+
+spring:
+  profiles: stage
+
+service:
+  name: stage-account
+  
+---
+
+spring:
+  profiles: dev
+
+service:
+  name: dev-account
+
+---
+
+spring:
+  profiles: prod
+
+service:
+  name: prod-account
