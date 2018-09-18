@@ -23,4 +23,4 @@ spring:
   profiles: prod
 
 service:
-  name: prod-account
+  name: prod-account-modify
